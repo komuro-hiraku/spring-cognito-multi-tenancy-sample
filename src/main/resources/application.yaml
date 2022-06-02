@@ -1,6 +1,6 @@
-#spring:
-#  security:
-#    oauth2:
-#      resourceserver:
-#        jwt:
-#          issuer-uri: https://cognito-idp.ap-northeast-1.amazonaws.com/ap-northeast-1_mIdVAFBRG
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sample
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
